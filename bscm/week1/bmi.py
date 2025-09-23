@@ -12,5 +12,5 @@ print(resultaat)
 resultaat = weight / pow(height, 2)
 print(resultaat)
 
-resultaat = weight / height**2
+resultaat = weight / height**2 # height ^ 2
 print(resultaat)
