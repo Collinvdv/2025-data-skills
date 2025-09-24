@@ -10,4 +10,4 @@ age = 34 # integer
 height = 1.94 # float
 isTeacher = True # boolean
 
-print(fullname + " has an age of " + age)
+print(fullname + " has an age of " + str(age))
