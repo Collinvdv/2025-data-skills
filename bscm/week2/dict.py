@@ -4,3 +4,6 @@ products = {
 }
 
 print(products["nike_schoentjes"])
+
+isMarried = True 
+isCool = False
