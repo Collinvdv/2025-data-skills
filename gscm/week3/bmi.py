@@ -7,7 +7,7 @@
 
 # Underweight (BMI < 18.5)
 # Healthy Weigh (BMI between 18.5 and 25)
-# Overweight (BMI > 25)
+# Overweight (BMI > 25 and 30 )
 # OBESEEEEE (BMI > 30)
 weight = float(input("What is your weight?"))
 height = float(input("What is your height?"))
@@ -17,7 +17,7 @@ if bmi < 18.5:
     print ("Underweight")
 elif bmi < 25:
     print("healthy")
-elif bmi < 30:
+elif bmi > 25 and bmi < 30:
     print("overweight")
 else:
     print("OBESEEEE")

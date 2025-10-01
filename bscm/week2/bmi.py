@@ -6,6 +6,7 @@
 # kleiner dan 18.5= ondergewicht
 # tussen 18.5 en kleiner dan 25 = gezond gewicht
 # groter dan 25 overgewicht
+# groter dan 30 obese
 
 weight = float(input("Weight:"))
 height = float(input("Height:"))
@@ -16,5 +17,7 @@ if bmi < 18.5:
     print("Eat some proteins")
 elif bmi < 25:
     print("Healthy")
-else: 
+elif bmi < 30:
     print("Overgewicht")
+else: 
+    print("Obese")
