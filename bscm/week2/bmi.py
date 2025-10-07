@@ -15,7 +15,7 @@ print(f"Jouw bmi is {round(bmi, 2)}")
 
 if bmi < 18.5:
     print("Eat some proteins")
-elif bmi < 25:
+elif bmi >= 18.5 and bmi < 25:
     print("Healthy")
 elif bmi < 30:
     print("Overgewicht")

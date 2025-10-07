@@ -6,3 +6,11 @@ elif age >= 16:
     print("Ale t is goed, maar wel maar eentje")
 else:
     print("Je mag niet drinken")
+
+if age >= 18:
+    print("All for more, kpz")
+else:
+    if age >= 16:
+        print("Ale t is goed, maar wel maar eentje")
+    else:
+        print("Je mag niet drinken")
