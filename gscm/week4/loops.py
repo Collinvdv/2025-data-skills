@@ -33,6 +33,7 @@ for grade in grades:
 
 avg = total / len(grades)
 
+avg = sum(grades) / len(grades)
 print(avg)
 
 
