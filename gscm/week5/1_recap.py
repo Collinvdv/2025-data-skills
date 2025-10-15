@@ -10,6 +10,13 @@ if len(children) > 0:
 else:
     print("No kiddos")
 
+for x in range(1, 11):
+    print(x)
+
+
+goats = ["T-rex", "Connie", "Clyde"]
+for goat in goats:
+    print(goat)
 
 
 
@@ -23,6 +30,4 @@ else:
 
 
 
-# all even numbers between 4301 and 4444
-# I: start? 4301
-# I: end? 4444
+
