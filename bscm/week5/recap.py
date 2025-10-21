@@ -27,4 +27,12 @@ while (password != secretpassword):
     print("Het komt niet overeen")
     password = input("give me your password")
 
+while (True):
+    password = input("give me your password")
+    if (password == secretpassword):
+        print("joepie ik ben in het systeem")
+        break
+    else:
+        print("fout")
+
 print("joepie ik ben in het systeem")

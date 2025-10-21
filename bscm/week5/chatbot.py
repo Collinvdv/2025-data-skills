@@ -88,6 +88,7 @@ neutralSentences = [
 
 
 commando = input()
+
 def wordInPhrase(words, phrase):
     if any(word.lower() in phrase.lower() for word in words):
         return True
