@@ -1,0 +1,15 @@
+[
+    {
+        "id": "234",
+        "name": "Adidas shoes",
+        "shop": [
+            "Zalando", 
+            "Bol.co"
+        ]
+    },
+    {
+        "id": "235",
+        "name": "Nike shoes",
+        "shops": []
+    }
+]
