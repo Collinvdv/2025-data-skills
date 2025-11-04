@@ -1,0 +1,6 @@
+{
+    "id" : "243",
+    "firstname": "Collin",
+    "isAuthenticated": "True",
+    "children": ["Boris", "Renske"]
+}
