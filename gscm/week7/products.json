@@ -1,0 +1,9 @@
+{
+    "firstname": "Collin",
+    "age": 34,
+    "goats": ["T-rex", "Connie"],
+    "partner": {
+        "firstname" : "Lisa",
+        "age": 29
+    }
+}
