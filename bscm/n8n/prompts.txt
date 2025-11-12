@@ -36,3 +36,7 @@ code script
 const jsonParsing = JSON.parse($input.first().json.content.parts[0].text.replaceAll("`", "").replaceAll("json",""));
 
 return jsonParsing;
+
+---
+
+OOS:  {{$('Code in JavaScript').item.json.quantity - $('HTTP Request').item.json.stock }} voor product {{ $('HTTP Request').item.json.title }}
