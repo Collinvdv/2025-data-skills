@@ -27,3 +27,12 @@ Example output:
   "product_id": "X123",
   "quantity": 3
 }
+
+
+---
+
+code script 
+
+const jsonParsing = JSON.parse($input.first().json.content.parts[0].text.replaceAll("`", "").replaceAll("json",""));
+
+return jsonParsing;
